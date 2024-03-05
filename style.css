@@ -1,0 +1,62 @@
+.row{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+}
+.text p{
+    margin: 45px;
+    text-align: justify;
+}
+.title2 h3{
+    text-align: center;
+   
+}
+nav{
+   width: 100%;
+   
+}
+.fix2{
+   margin-top: 40px;
+}
+.img{
+    position: relative;
+    bottom: 65px;
+    right: 25px;
+}
+
+@media (max-width: 576px) {
+  nav span{
+    font-size: 12px;
+  }
+  h4{
+    margin-left: 10px;
+  }
+
+  .text p{
+    text-align: center;
+  }
+
+  .img iframe{
+    width: 340px;
+    position: relative;
+    left: 35px;
+    bottom: 120px;
+
+  }
+
+  .tuto{
+    position: relative;
+    bottom: 340px;
+  }
+  .tuto2{
+   position: relative;
+   bottom: 360px;
+  }
+
+  footer{
+    position: relative;
+    bottom: 300px;
+  }
+}
